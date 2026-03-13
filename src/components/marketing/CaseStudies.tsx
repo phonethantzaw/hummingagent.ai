@@ -4,6 +4,10 @@ import { motion } from "framer-motion";
 import { ArrowRight, TrendingUp, ShieldCheck, Clock } from "lucide-react";
 import Image from "next/image";
 
+import immerseForgeImg from "../../../public/images/immerse-forge.png";
+import superParkImg from "../../../public/images/super-park-sign.jpg";
+import privateGptImg from "../../../public/images/private-gpt-hero.jpg";
+
 const caseStudies = [
   {
     company: "Immerse Forge",
@@ -11,7 +15,7 @@ const caseStudies = [
     summary: "Automated end-to-end supply chain reporting and vendor communications.",
     result: "40% time saved",
     icon: <Clock className="w-5 h-5 text-accent-indigo" />,
-    image: "/images/immerse-forge.png"
+    image: immerseForgeImg
   },
   {
     company: "Super Park",
@@ -19,7 +23,7 @@ const caseStudies = [
     summary: "Deployed custom AI agents to handle 80% of tier-1 customer support tickets.",
     result: "24/7 AI support",
     icon: <TrendingUp className="w-5 h-5 text-accent-cyan" />,
-    image: "/images/super-park-sign.jpg"
+    image: superParkImg
   },
   {
     company: "Private GPT",
@@ -27,7 +31,7 @@ const caseStudies = [
     summary: "Built a fully air-gapped internal knowledge base trained on confidential documents.",
     result: "100% data privacy",
     icon: <ShieldCheck className="w-5 h-5 text-accent-emerald" />,
-    image: "/images/private-gpt-hero.jpg"
+    image: privateGptImg
   }
 ];
 
